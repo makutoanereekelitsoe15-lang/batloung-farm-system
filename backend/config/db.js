@@ -15,6 +15,9 @@ const poolOptions = config.db.url
       decimalNumbers: true,
       dateStrings: true,
       charset: 'utf8mb4',
+      ssl: {
+        rejectUnauthorized: false,
+      },
     }
   : {
       host: config.db.host,
