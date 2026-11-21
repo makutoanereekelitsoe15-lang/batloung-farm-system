@@ -1,0 +1,19 @@
+{
+  "name": "batloung-farm-system",
+  "version": "1.0.0",
+  "description": "Fresh Produce Distribution Management System for Batloung Farm (Maseru, Lesotho)",
+  "scripts": {
+    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mysql",
+    "distribution",
+    "lesotho"
+  ],
+  "author": "Batloung Farm",
+  "license": "MIT"
+}
