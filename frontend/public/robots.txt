@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://makutoanereekelitsoe15-lang.github.io/batloung-farm-system/sitemap.xml
