@@ -1,11 +1,10 @@
 // vite.config.js
-// The dev server forwards every /api request to the Express server on
-// port 5000. That is why the React code can simply call "/api/suppliers".
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: './', // Ensures assets load properly on GitHub Pages and local Express
   server: {
     port: 5173,
     proxy: {
